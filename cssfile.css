@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Quicksand:wght@300;500;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+header {
+  padding-top: 10px;
+  background-color: black;
+  width: 100%;
+  height: 80px;
+}
+nav {
+  color: white;
+  padding: 0 50px;
+  justify-content: space-between;
+  display: flex;
+}
+
+nav h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 35px;
+  color: rgb(172, 34, 34);
+}
+
+ul {
+  line-height: 30px;
+  border-radius: 20px;
+  height: 40px;
+  /* background-color: rgb(138, 133, 133); */
+  padding: 10px 20px;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  display: flex;
+}
+
+nav li a {
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  /* margin-left: 10px;
+        margin-right: 10px; */
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+nav li .home:hover {
+  color: rgb(172, 34, 34);
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+nav li .About:hover {
+  color: rgb(172, 34, 34);
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+nav li .Skill:hover {
+  color: rgb(172, 34, 34);
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+nav li .Project:hover {
+  color: rgb(172, 34, 34);
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+nav li a:hover {
+  border-radius: 50px;
+  color: rgb(172, 34, 34);
+  font-size: 24px;
+}
+
+main {
+  color: white;
+  margin: 200px auto;
+  width: 70%;
+}
+
+main h1 {
+  line-height: 1;
+  font-size: 70px;
+}
+
+main h3 {
+  color: rgb(172, 34, 34);
+  font-size: 30px;
+}
+
+main p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.button a {
+  margin-bottom: 410px;
+  display: block;
+  width: fit-content;
+  transition: 0.3s;
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(172, 34, 34);
+}
+
+.button a:hover {
+  color: white;
+  background-color: rgb(172, 34, 34);
+  padding: 30px;
+}
+
+.MainSec {
+  padding: ;
+  /* background-color: grey; */
+  width: 100%;
+  margin-bottom: 1000px;
+}
+
+.about-mepage {
+  height: 800px;
+  padding-top: 70px;
+  text-align: center;
+  margin: 1000px auto;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: ;
+  -moz-transition: ;
+  -ms-transition: ;
+  -o-transition: ;
+}
+
+.about-mepage:hover {
+  opacity: 1;
+}
+.about-mepage h1 {
+  line-height: 0;
+}
+
+.about-mepage p {
+  color: rgb(172, 34, 34);
+}
